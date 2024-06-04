@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+}
+#nadpis{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+#inputWeather{
+    font-size: 23px;
+    padding: 15px;
+    border-radius: 10px;
+    border: #DAE1E9 solid 1px;
+    color: #808080FF;
+}
+#findWeather{
+    background-color: #0F172A;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 18px;
+}
+#findWeather:hover{
+    cursor: pointer;
+}
+#findWeather:disabled:hover{
+    cursor: unset;
+}
+#findWeather:disabled{
+    opacity: 80%;
+}
+#errorContainer{
+    color: #E32B54;
+    margin-top: 5px;
+}
+#refresh:hover{
+    cursor: pointer;
+}
+.txt{
+    color: #5D6878;
+    text-align: center;
+    margin-top: 200px;
+}
+.weatherContainerr{
+    border: solid #C0C8D5 2px;
+    border-radius: 10px;
+    padding-top: 5px;
+    color: rgb(56, 54, 54);
+    font-weight: bold;
+    margin-top: 35px;
+}
+.divHolder{
+    display: flex;
+    align-items: center;
+}
+.tempP{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
